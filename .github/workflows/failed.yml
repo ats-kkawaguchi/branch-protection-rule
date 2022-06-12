@@ -1,8 +1,4 @@
-name: Failed
-
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -13,4 +9,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: exit 1
+
